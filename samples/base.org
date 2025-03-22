@@ -1,0 +1,35 @@
+#+TITLE: Sample pages and content
+
+#+begin_SUMMARY
+[SUMMARY > p] Each page will contain a summary. It should be formatted in a special way, with
+larger font or with outlines / backgrounds or whatever else will fit. This is
+the first content you will see on a page right after the page title.
+#+end_SUMMARY
+
+* Heading 1
+** Heading 2
+*** Heading 3
+**** Heading 4
+[hr]
+-----
+* Content
+#+begin_CONTENT
+[CONTENT > p] Aliquam at placerat ante, quis pellentesque dolor. Fusce vel
+dictum turpis. Sed metus lacus, mattis quis gravida et, tempor laoreet dolor.
+Suspendisse erat quam, dapibus non congue eu, varius eget diam. Proin tincidunt
+mattis orci, sed aliquam nisl scelerisque nec. Sed vitae quam leo. Cras laoreet
+ante vitae lacus hendrerit, et tincidunt lectus laoreet.
+#+end_CONTENT
+
+* Lists and links
+- [ul > li > a] This is an [[https://github.com/AgrYpn1a][external link]].
+- [ul > li > a] This is an [[/journal][internal link]].
+- [ul > li > a] This is a [[/res/R_Tojagic_CV.pdf][download link]].
+
+* Paragraphs
+[p] This is a paragraph.
+
+[p] This is a second paragraph.
+* Latex (math)
+When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+\begin{equation} x = {-b \pm \sqrt{b^2-4ac} \over 2a} \end{equation}
